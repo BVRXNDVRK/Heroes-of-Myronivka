@@ -14,8 +14,19 @@ public class GameManager : MonoBehaviour
     public void EndGame() {
         if(gameHasEnded == false) {
             gameHasEnded = true;
+            Invoke("LoadCompleteGameMenu", 3f);
+        }
+    }
+
+    public void RestartGame() {
+        if(gameHasEnded == false) {
+            gameHasEnded = true;
             Invoke("Restart", restartDelay);
         }
+    }
+
+    void LoadCompleteGameMenu() {
+        SceneManager.LoadScene(5);
     }
 
     void Restart() {

@@ -6,6 +6,7 @@ public class WinTrigger : MonoBehaviour
 
     void OnTriggerEnter() {
         gameManager.CompleteGame();
+        gameManager.EndGame();
     }
   
 }

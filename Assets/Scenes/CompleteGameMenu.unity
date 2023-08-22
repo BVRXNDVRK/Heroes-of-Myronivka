@@ -343,7 +343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 942536062}
         m_TargetAssemblyTypeName: CompleteGameMenu, Assembly-CSharp
-        m_MethodName: PlayOnceMore
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 475916243}
   - component: {fileID: 475916242}
   m_Layer: 5
-  m_Name: Thanks (1)
+  m_Name: Made By
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 942536058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06d196370b02f8c4ca1153c5102ad0b8, type: 3}
+  m_Script: {fileID: 11500000, guid: da67495ff74cfdb4d8047213ffaec0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &986976676
@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 1457416150}
   - component: {fileID: 1457416149}
   m_Layer: 5
-  m_Name: Play Once More (1)
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameMenu.unity
+    guid: 01894d94819e59346801399a9319da4e
+  - enabled: 1
+    path: Assets/Scenes/HeroSelection.unity
+    guid: 44e24fcdb484d864fbd9dfae9df09468
+  - enabled: 1
+    path: Assets/Scenes/GameVOVA.unity
+    guid: ae5c1d3147f3cbf4fa14ae20b941b867
+  - enabled: 1
+    path: Assets/Scenes/GameVITA.unity
+    guid: d504a6a99bce317488db2c3c4d7c241c
+  - enabled: 1
+    path: Assets/Scenes/GameIHOR.unity
+    guid: 0829c68ee2a89c640b92a8f285767405
+  - enabled: 1
+    path: Assets/Scenes/CompleteGameMenu.unity
+    guid: 8f8fbe04edcdb244d98a1cd83d7020f3
   m_configObjects: {}

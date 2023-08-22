@@ -1,17 +1,15 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompleteGameMenu : MonoBehaviour
 {
-
-
-    public void PlayOnceMore()
+    public void StartGame()
     {
-        
+        SceneManager.LoadScene(1);
     }
 
     public void Exit()
     {
-        Debug.Log("QUIT");
         Application.Quit();
     }
 }
